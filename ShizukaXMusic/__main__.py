@@ -23,7 +23,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("ShizukaXMusic").error("Add Pyrogram string session and then try...")
+        LOGGER("agoraXMusic").error("Add Pyrogram string session and then try...")
     try:
         users = await get_gbanned()
         for user_id in users:
@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Shizuka.start()
     try:
-        await Shizuka.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Shizuka.stream_call("https://telegra.ph/file/2c21645cd1c337d12918d.jpg")
     except NoActiveGroupCall:
         LOGGER("ShizukaXMusic").error(
             "[ERROR] - \n\nTurn on group voice chat and don't put it off otherwise I'll stop working thanks."
